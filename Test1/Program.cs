@@ -34,8 +34,8 @@ Console.WriteLine();
 int sum = 0;
 int avr =0;
 for(int i =0; i<A.Length; i++)
-  sum=A[i]; 
-  avr += sum/A.Length;
+  sum+=A[i]; 
+  avr= sum/A.Length;
   Console.WriteLine(avr +"  <Среднее");
     
     Console.WriteLine();
